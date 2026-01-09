@@ -77,20 +77,20 @@
     </div>
 
     <div class="card shadow-sm border-0">
-        <div class="card-body p-0">
+        <div class="card-body">
             <table id="myTable" class="table table-bordered table-hover mb-0">
                 <thead class="table-light">
-                    <tr>
-                        <th style="width: 25%;">Title</th>
-                        <th style="width: 15%;">Author</th>
-                        <th class="d-none d-md-table-cell">ISBN</th>
-                        <th>Request Date</th>
-                        <th>Issued</th>
-                        <th>Due</th>
-                        <th>Returned</th>
-                        <th>Days Left</th>
-                        <th>Status</th>
-                    </tr>
+                <tr>
+                    <th style="width: 27%;">Title</th>
+                    <th style="width: 12%;">Author</th>
+                    <th style="width: 12%;">ISBN</th>
+                    <th style="width: 11%;">Request Date</th>
+                    <th style="width: 8%;">Issued</th>
+                    <th style="width: 8%;">Due</th>
+                    <th style="width: 8%;">Returned</th>
+                    <th style="width: 9%;">Days Left</th>
+                    <th style="width: 5%;">Status</th>
+                </tr>
                 </thead>
                 <tbody>
                     @foreach($borrowedBooks as $row)
